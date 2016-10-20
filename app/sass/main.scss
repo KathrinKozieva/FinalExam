@@ -562,16 +562,15 @@ footer {
 .footer {
 	width: 320px;
 	margin: $auto;
+	padding-top: 17px;
 	&__logo {
 		font-family: $montbold;
 		font-size: 16px;
 		letter-spacing: 0.8px;
 		padding-top: 16px;
 		color: $red_link;
-		float: left;
 		text-decoration: none;
 		margin-left: 86px;
-		position: absolute;
 	}
 	&__heading {
 		font-family: $montbold;
@@ -580,7 +579,7 @@ footer {
 		float: left;
 		margin-left: 125px;
 		text-decoration: none;
-		margin-top: 47px;
+		margin-top: 10px;
 		&--second {
 			margin-top: 33px;
 			margin-left: 129px;
@@ -590,7 +589,7 @@ footer {
 		list-style: none;
 		clear: $clear;
 		position: absolute;
-		margin-top: 64px;
+		margin-top: 28px;
 		margin-left: 62px;
 	}
 	li {
@@ -627,7 +626,7 @@ footer {
 
 						/* TABLET */
 
-@media only screen and (min-width: 780px) and (max-width: 979px) {
+@media only screen and (min-width: 783px) and (max-width: 979px) {
 /* HEADER-------------------------------------HEADER */
 	header {
 		height: 700px;
@@ -821,17 +820,17 @@ footer {
 
 	/* SEARCH-------------------------------------SEARCH */
 	.search__wrap {
-		height: 255px;
+		height: 257px;
 		width: 100%;
 	}
 	.search {
 		width: 760px;
 		&__heading {
 			width: 760px;
-			margin-left: -5px;
+			margin-left: 0px;
 		}
 		&__text {
-			margin-left: 20px;
+			margin-left: 0px;
 			margin-top: 28px;
 		}
 		form {
@@ -841,7 +840,7 @@ footer {
 			margin-top: 37px;
 			.search__input {
 				width: 225px;
-				margin-left: 178px;
+				margin-left: 175px;
 				outline: none;
 			}
 			.search__submit {
@@ -859,26 +858,26 @@ footer {
 	}
 	.footer {
 		width: 760px;
+		padding: 0;
 		&__logo {
-			position: absolute;
-			margin: 0;
-			padding: 0;
-			margin-left: 39px;
-			margin-top: 38px;
+			display: block;
+			margin-left: 70px;
+			margin-top: 30px;
 		}
 		&__heading {
 			padding: 0;
 			margin: 0;
 			margin-bottom: 11px;
-			margin-top: 38px;
-			margin-left: 265px;
+			margin-top: -19px;
+			margin-left: 264px;
 			text-decoration: none;
 			&--second {
 				margin-left: 103px;
 			}
 		}
 		ul {
-			margin-left: 265px;
+			margin-left: 264px;
+			margin-top: 5px;
 		}
 		li {
 			float: none;
@@ -891,9 +890,12 @@ footer {
 			}
 		}
 		&__right {
+			& p {
+				margin-left: 17px;
+			}
 			float: right;
-			margin-top: -40px;
-			margin-right: 32px;
+			margin-top: -42px;
+			margin-right: 33px;
 		}
 	}
 }
@@ -1233,7 +1235,7 @@ footer {
 		&__heading {
 			margin: 0;
 			padding-top: 36px;
-			margin-left: 240px;
+			margin-left: 97px;
 			&--second {
 				margin-left: 93px;
 			}
@@ -1252,7 +1254,7 @@ footer {
 		}
 		&__right {
 			float: right;
-			margin-top: -30px;
+			margin-top: -33px;
 			& p {
 				font-family: $montbold;
 				font-size: 10px;
