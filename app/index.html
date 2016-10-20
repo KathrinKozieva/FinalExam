@@ -2,43 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kathrin Kozieva - final exam</title>
 	<link rel="stylesheet" href="css/main.css">
-	<script src="https://cdn.jsdelivr.net/lodash/4.16.4/lodash.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script> var jquery_3_1_0 = jQuery; </script>
-	<style type="text/css">
-		@font-face {
-		    font-family: 'robotolight';
-		    src: url('fonts/roboto-light-webfont.eot');
-		    src: url('fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
-		         url('fonts/roboto-light-webfont.woff2') format('woff2'),
-		         url('fonts/roboto-light-webfont.woff') format('woff'),
-		         url('fonts/roboto-light-webfont.ttf') format('truetype');
-		    font-weight: normal;
-		    font-style: normal;
-		}
-		@font-face {
-		    font-family: 'montserratbold';
-		    src: url('fonts/montserrat-bold-webfont.eot');
-		    src: url('fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
-		         url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
-		         url('fonts/montserrat-bold-webfont.woff') format('woff'),
-		         url('fonts/montserrat-bold-webfont.ttf') format('truetype');
-		    font-weight: normal;
-		    font-style: normal;
-		}
-		@font-face {
-		    font-family: 'montserratregular';
-		    src: url('fonts/montserrat-regular-webfont.eot');
-		    src: url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		         url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
-		         url('fonts/montserrat-regular-webfont.woff') format('woff'),
-		         url('fonts/montserrat-regular-webfont.ttf') format('truetype');
-		    font-weight: normal;
-		    font-style: normal;
-		}
-	</style>
 </head>
 <body>
 	
@@ -59,13 +27,83 @@
 
 <div class="sliders">
 	<div class="sliders__wrap">
-		<p>How Urlaubsglück works?</p>
+		<p class="sliders__heading">How Urlaubsglück works?</p>
+		<div class="slider">
+		    <div class="jcarousel">
+		        <ul>
+		            <li class="jitem"><img class="jitem__img" src="img/slide1.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 1</a>
+						<p class="jitem__heading">Sed leo enim, condimentum</p>
+						<p class="jitem__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+		            </li>
+		            <li class="jitem"><img class="jitem__img" src="img/slide12.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 1-2</a>
+						<p class="jitem__heading">Sed leo enim, condimentum</p>
+						<p class="jitem__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+		            </li>
+		            <li class="jitem"><img class="jitem__img" src="img/slide13.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 1-3</a>
+						<p class="jitem__heading">Sed leo enim, condimentum</p>
+						<p class="jitem__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+		            </li>
+		        </ul>
+		    </div>
+			<a class="slider__prev" href="#"><img src="img/prev.png" alt="<"></a>
+			<a class="slider__next" href="#"><img src="img/next.png" alt=">"></a>
+			    	
+		</div>
+		<div class="slider slider--second">
+		    <div class="jcarousel jcarousel--second">
+		        <ul>
+		            <li class="jitem jitem--second"><img class="jitem__img" src="img/slide2.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 2</a>
+						<p class="jitem__heading">Morbi velit risus</p>
+						<p class="jitem__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+		            </li>
+		            <li class="jitem jitem--second"><img class="jitem__img" src="img/slide22.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 2-2</a>
+						<p class="jitem__heading">Morbi velit risus</p>
+						<p class="jitem__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+		            </li>
+		            <li class="jitem jitem--second"><img class="jitem__img" src="img/slide23.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 2-3</a>
+						<p class="jitem__heading">Morbi velit risus</p>
+						<p class="jitem__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+		            </li>
+		        </ul>
+		    </div>
+			<a class="slider__prev" href="#"><img src="img/prev.png" alt="<"></a>
+			<a class="slider__next" href="#"><img src="img/next.png" alt=">"></a> 	
+		</div>
+		<div class="slider slider--third">
+		    <div class="jcarousel jcarousel--third">
+		       	<ul>
+		            <li class="jitem jitem--third"><img class="jitem__img" src="img/slide3.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 3</a>
+						<p class="jitem__heading">Sed leo enim, condimentum</p>
+						<p class="jitem__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+		            </li>
+		            <li class="jitem jitem--third"><img class="jitem__img" src="img/slide32.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 3-2</a>
+						<p class="jitem__heading">Sed leo enim, condimentum</p>
+						<p class="jitem__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+		            </li>
+		            <li class="jitem jitem--third"><img class="jitem__img" src="img/slide33.png" alt="photo">
+						<a class="jitem__link" href="#">STEP 3-3</a>
+						<p class="jitem__heading">Sed leo enim, condimentum</p>
+						<p class="jitem__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+		            </li>
+		        </ul>
+		    </div>
+			<a class="slider__prev" href="#"><img src="img/prev.png" alt="<"></a>
+			<a class="slider__next" href="#"><img src="img/next.png" alt=">"></a>    	
+		</div>
 	</div>
 </div>
 
-<div class="partners">
-	<div class="partners__wrap">
-		<p class="heading">Meet a partner for your best holiday</p>
+<div class="partners__wrap">
+	<div class="partners">
+		<p class="partners__heading">Meet a partner for your best holiday</p>
 		<div class="partner">
 			<a class="partner__avatar" href="#"></a>
 			<span class="partner__circle"></span>
@@ -97,11 +135,54 @@
 		<a class="partners__link" href="#">See other partners</a>
 	</div>
 </div>
+<div class="images__wrap">
+	<div class="images">
+		<p class="images__heading">Discover holiday activity ideas</p>
+        <div class="grid">
+	        <div class="grid-sizer"></div>
+	        <div class="gutter-sizer"></div>
 
+	        <div class="grid-item"><img class="grid-img" src="" alt=""><p class="grid-title" ></p></div>
+	        <div class="grid-item"><img class="grid-img" src="" alt=""><p class="grid-title" ></p></div>
+	        <div class="grid-item"><img class="grid-img" src="" alt=""><p class="grid-title" ></p></div>
+	        <div class="grid-item"><img class="grid-img" src="" alt=""><p class="grid-title" ></p></div>
+	        <div class="grid-item"><img class="grid-img" src="" alt=""><p class="grid-title" ></p></div>
+	        <div class="grid-item"><img class="grid-img" src="" alt=""><p class="grid-title" ></p></div>
+	        <div class="grid-item"><img class="grid-img" src="" alt=""><p class="grid-title" ></p></div>
+              
+        </div>
+	</div>
+</div>
+<div class="search__wrap">
+	<div class="search">
+		<p class="search__heading">Discover holiday activity ideas</p>
+		<p class="search__text">Hi! What are your holiday interests?</p>
+		<form action="#" method="GET" id="search__form">
+			<input class="search__input" type="text" name="" placeholder="Enter your interests">
+            <input class="search__submit" type="submit" name="" value="Search partners">
+		</form>
+	</div>
+</div>
 
-
+<footer>
+	<div class="footer">
+		<a class="footer__logo" href="#">URLAUBSGLÜCK</a>
+		<a class="footer__heading" href="#">Company</a>
+		<a class="footer__heading footer__heading--second" href="#">Partners</a>
+		<ul>
+			<li><a class="footer__link" href="#">About</a></li>
+			<li><a class="footer__link" href="#">Contacts</a></li>
+			<li><a class="footer__link" href="#">Press</a></li>
+			<li><a class="footer__link" href="#">Blog</a></li>
+		</ul>
+		<div class="footer__right">
+			<p>DESIGNED BY</p>
+			<img src="img/logo.png" alt="logo">
+		</div>
+	</div>
+</footer>
 	
-<!-- <script src="js/libs.min.js"></script>
-<script src="js/script.js"></script> -->
+<script src="js/libs.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

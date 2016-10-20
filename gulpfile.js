@@ -30,8 +30,9 @@ gulp.task('browser-sync', function() {
 
 gulp.task('scripts', function() {
 	return gulp.src([ 
-		'app/libs/jquery/dist/jquery.min.js', 
 		'app/libs/jquery.jcarousel.js', 
+		'app/libs/masonry.pkgd.3.3.2.min.js', 
+		'app/libs/imagesloaded.pkgd.3.2.0.min.js' 
 
 		])
 		.pipe(concat('libs.min.js'))
