@@ -551,7 +551,7 @@ footer {
       padding-left: 13px; }
 
 /* TABLET */
-@media only screen and (min-width: 780px) and (max-width: 979px) {
+@media only screen and (min-width: 768px) and (max-width: 979px) {
   /* HEADER-------------------------------------HEADER */
   header {
     height: 700px;
@@ -559,11 +559,11 @@ footer {
     background: url(../img/header.jpg) no-repeat center center;
     background-size: cover; } }
 
-@media only screen and (min-width: 780px) and (max-width: 979px) and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 780px) and (max-width: 979px) and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-width: 780px) and (max-width: 979px) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 780px) and (max-width: 979px) and (min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 768px) and (max-width: 979px) and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 768px) and (max-width: 979px) and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-width: 768px) and (max-width: 979px) and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-width: 768px) and (max-width: 979px) and (min-device-pixel-ratio: 1.5) {
   header {
     background: url("../img/header_x2.jpg") no-repeat center center; } }
 
-@media only screen and (min-width: 780px) and (max-width: 979px) {
+@media only screen and (min-width: 768px) and (max-width: 979px) {
   .header__wrap {
     width: 760px;
     margin-left: 0 	!important;
