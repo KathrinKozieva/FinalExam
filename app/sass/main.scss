@@ -180,6 +180,9 @@ header {
     position: absolute;
     margin-top: -200px;
     margin-left: 1px;
+    & img {
+    	border: none;
+    }
 }
 .slider__next {
 	width: 40px;
@@ -188,6 +191,9 @@ header {
     position: absolute;
     margin-top: -200px;
     margin-left: 268px;
+    & img {
+    	border: none;
+    }
 }
 .jitem {
     width: 300px;

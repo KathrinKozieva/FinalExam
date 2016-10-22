@@ -153,6 +153,8 @@ header {
   position: absolute;
   margin-top: -200px;
   margin-left: 1px; }
+  .slider__prev img {
+    border: none; }
 
 .slider__next {
   width: 40px;
@@ -161,6 +163,8 @@ header {
   position: absolute;
   margin-top: -200px;
   margin-left: 268px; }
+  .slider__next img {
+    border: none; }
 
 .jitem {
   width: 300px;
