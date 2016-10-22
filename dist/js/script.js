@@ -1,6 +1,6 @@
 (function($) {
     $(function() {
-        var $ = jQuery = jquery_3_1_0;
+ 
         var jcarousel = $('.jcarousel');
 
         jcarousel
@@ -31,7 +31,7 @@
     });
 
     $(function() {
-        var $ = jQuery = jquery_3_1_0;
+
         var jcarousel = $('.jcarousel--second');
 
         jcarousel
@@ -51,7 +51,7 @@
         });
     });
     $(function() {
-        var $ = jQuery = jquery_3_1_0;
+
         var jcarousel = $('.jcarousel--third');
 
         jcarousel
@@ -98,7 +98,7 @@
                   // init Masonry after all images have loaded
                       $grid.masonry({
                         columnWidth: ".grid-sizer",
-                        itemSelector: ".grid-item",
+                        itemSelector: ".grid-item"
                       });
                     });
             }
