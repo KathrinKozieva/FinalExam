@@ -31,13 +31,13 @@ gulp.task('browser-sync', function() {
 gulp.task('scripts', function() {
 	return gulp.src([ 
 		'app/libs/jquery.jcarousel.js', 
-		'app/libs/masonry.pkgd.3.3.2.min.js', 
-		'app/libs/imagesloaded.pkgd.3.2.0.min.js' 
+		'app/libs/masonry.pkgd.js', 
+		'app/libs/imagesloaded.pkgd.js' 
 
 		])
 		.pipe(concat('libs.min.js'))
-		.pipe(uglify())
-		.pipe(gulp.dest('app/js'));
+/*		.pipe(uglify())
+*/		.pipe(gulp.dest('app/js'));
 });
 
 gulp.task('css-libs', ['sass'], function() {
