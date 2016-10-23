@@ -48,7 +48,9 @@
         function getImages() {
             var word = $('.search__input').val();
                 if (word.length === 0) {
-                    word = 'sea';
+                    var arr = ["sea", "beach", "sun", "sunset", "maldivas", "seychelles", "ocean", "madagaskar", "caribbean", "cuba", "forest", "colorado", "arizona"];
+                    var rand = Math.floor(Math.random() * arr.length);
+                    word = ( arr[rand] );
                 }
             var request = (document.all && document.querySelector && !document.addEventListener) ? 'http' : 'https';
             crossDomainAjax(request + '://pixabay.com/api/?key=3536504-f5f43fa39c601bc2382590432&q='+word+'&image_type=photo');
@@ -62,7 +64,6 @@
                 });
             });
         }
-
         $('#search__form').submit(function(e) {
             e.preventDefault();
             getImages();
@@ -75,6 +76,5 @@
         });
 
         getImages()
-        
     });
 })(jQuery);
