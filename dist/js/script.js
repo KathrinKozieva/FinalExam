@@ -68,13 +68,8 @@
             e.preventDefault();
             getImages();
         });
-        $('.search__input').keydown(function(e) {
-            if(e.keyCode == 13){
-                getImages();
-                return false;
-            }
-        });
 
         getImages()
+        
     });
 })(jQuery);
