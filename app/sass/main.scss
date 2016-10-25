@@ -209,17 +209,16 @@ header {
     width: 300px;
     float: left;
     overflow: hidden;
-    height: 400px;
+    height: 240px;
     &__img {
         display: block;
         max-width: 100%;
-        height: 240px;
         width: 300px;
     }
     &__link {
     	display: block;
     	position: absolute;
-    	margin-top: -171px;
+    	margin-top: -331px;
     	margin-left: 21px;
     	text-decoration: none;
     	height: 15px;
@@ -243,7 +242,7 @@ header {
     	width: 170px;
     	font-size: 24px;
     	font-family: $montbold;
-    	margin-top: -136px;
+    	margin-top: -297px;
     	margin-left: 19px;
     	color: white;
     }
@@ -258,11 +257,11 @@ header {
     }
     &--second {
     	.jitem__link {
-    		margin-top: -141px;
+    		margin-top: -301px;
     	}
     	.jitem__heading {
     		width: 195px;
-    		margin-top: -106px;
+    		margin-top: -265px;
     		margin-left: 18px;
     	}
     	.jitem__text {
@@ -724,6 +723,7 @@ footer {
 	}
 	.jitem {
 	    width: 235px;
+	    height: 400px;
 	    &__img {
 	        height: 400px;
 	        width: 235px;
@@ -739,6 +739,12 @@ footer {
 	    	line-height: 17px;
 	    }
 	    &--second {
+	    	.jitem__link {
+				margin-top: -140px; 
+			}
+	    	.jitem__heading {
+	    		margin-top: -105px; 
+	    	}
 	    	.jitem__text {
 				width: 210px;
 	    	}
