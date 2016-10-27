@@ -1,6 +1,6 @@
 # FinalExam
 <h2><a href="https://kathrinkozieva.github.io/">VIEW DEMO</a></h2>
-<h2>Final exam:</h2>
+<h2>Final exam tasks:</h2>
 <ul>
 	<li>Responsive design, mobile first</li>
 	<li>Pixel perfect</li>
