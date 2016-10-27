@@ -9,7 +9,12 @@
 	<li>SASS</li>
 	<li>Sliders with jQuery plugin</li>
 	<li>Masonry with Ajax request</li>
-	<li>Gulp</li>
-	<li>Used "imagemin-pngquant": "^4.2.2" for minification pictures</li>
-	<li>Retina support</li>
+	<li>BONUS TASKS: <ol>
+		<li>Gulp</li>
+		<li>Used "imagemin-pngquant": "^4.2.2" for minification pictures</li>
+		<li>Retina support</li>
+	</ol></li>
+	
+
+	
 </ul>
